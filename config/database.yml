@@ -6,7 +6,10 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: sample_app
+  host: localhost
+  database: sample_app_dev
+  username: sample_app
+  password: password
   pool: 5
   timeout: 5000
 
@@ -16,7 +19,10 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: sample_app
+  host: localhost
+  database: sample_app_dev
+  username: sample_app
+  password: password
   pool: 5
   timeout: 5000
 
